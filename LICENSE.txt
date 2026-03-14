@@ -4,8 +4,8 @@ LICENSE -- Creative Commons Attribution-NonCommercial 4.0 International
 ================================================================================
 
 VA Claim Scout -- Claims Intelligence
-Copyright (c) @VAClaimScout
-github.com/VAClaimScout
+Copyright (c) @ClaimScout
+github.com/ClaimScout
 
 --------------------------------------------------------------------------------
 YOU ARE FREE TO
@@ -21,10 +21,10 @@ Under the following terms:
 ATTRIBUTION (BY)
 --------------------------------------------------------------------------------
 
-You must give appropriate credit to @VAClaimScout and provide a link to the
+You must give appropriate credit to @ClaimScout and provide a link to the
 source:
 
-  github.com/VAClaimScout
+  github.com/ClaimScout
 
 You must indicate if changes were made. You may do so in any reasonable manner,
 but not in any way that suggests the licensor endorses you or your use.
@@ -32,7 +32,7 @@ but not in any way that suggests the licensor endorses you or your use.
 If you share this tool -- by email, text, print, social media, website, or any
 other means -- you must credit the source. The simplest way:
 
-  "VA Claim Scout by @VAClaimScout -- github.com/VAClaimScout
+  "VA Claim Scout by @ClaimScout -- github.com/ClaimScout
    -- Free for every veteran."
 
 --------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ This means you may not:
   - Charge veterans, VSOs, attorneys, or any other party for access to this
     tool or any version of it
   - Use it as the basis of a for-profit consulting service without separate
-    written permission from @VAClaimScout
+    written permission from @ClaimScout
 
 THIS TOOL IS FREE. IT MUST REMAIN FREE IN ANY FORM YOU DISTRIBUTE IT.
 
@@ -101,5 +101,5 @@ outcomes, denials, reductions, or other results arising from its use.
 
 --------------------------------------------------------------------------------
 VA Claim Scout -- Free for every veteran.
-github.com/VAClaimScout
+github.com/ClaimScout
 ================================================================================

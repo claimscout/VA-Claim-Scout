@@ -90,7 +90,7 @@ VA Claim Scout is free to use, share, print, email, and distribute.
 
 If you share it, please credit the source:
 
-  github.com/VAClaimScout
+  github.com/ClaimScout
 
 If someone sent this to you by email or text, the original and most current
 version always lives at the GitHub link above. Check back for updates.
@@ -127,8 +127,8 @@ Veterans Crisis Line:  Call or text 988 -- 24/7, confidential
                        Text 838255
 
 --------------------------------------------------------------------------------
-Created by @VAClaimScout
+Created by @ClaimScout
 Licensed under CC BY-NC 4.0
-github.com/VAClaimScout
+github.com/ClaimScout
 Free for every veteran.
 ================================================================================

@@ -1,8 +1,8 @@
 # License — Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 **VA Claim Scout — Claims Intelligence**  
-Copyright © @VAClaimScout  
-github.com/VAClaimScout
+Copyright © @ClaimScout  
+github.com/ClaimScout
 
 ---
 
@@ -17,15 +17,15 @@ Under the following terms:
 
 ## Attribution (BY)
 
-You must give appropriate credit to **@VAClaimScout** and provide a link to the source:
+You must give appropriate credit to **@ClaimScout** and provide a link to the source:
 
-**github.com/VAClaimScout**
+**github.com/ClaimScout**
 
 You must indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
 **If you share this tool — by email, text, print, social media, website, or any other means — you must credit the source. The simplest way:**
 
-> *"VA Claim Scout by @VAClaimScout — github.com/VAClaimScout — Free for every veteran."*
+> *"VA Claim Scout by @ClaimScout — github.com/ClaimScout — Free for every veteran."*
 
 ---
 
@@ -81,4 +81,4 @@ This framework is provided "as is," without warranty of any kind.
 ---
 
 *VA Claim Scout — Free for every veteran.*  
-*github.com/VAClaimScout*
+*github.com/ClaimScout*
