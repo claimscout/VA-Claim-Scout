@@ -436,7 +436,11 @@ Relationship to Veteran: ___________________
 
 **⚠️ Buddy statements describe what was observed — not what was diagnosed. The writer should never state a medical opinion. That is for doctors.**
 
-Once written, the statement should be submitted as **VA Form 21-10210** (Lay/Witness Statement) or attached directly to the claim file.
+**⚠️ PERSONALIZATION REQUIRED:** Before generating a buddy statement, ask the veteran or the writer specific questions about what they personally observed — dates, specific incidents, symptoms witnessed, and how it affected the veteran's daily life. The statement must reflect that person's unique firsthand experience in their own voice. Do not generate generic or boilerplate language. A VA rater can and will discount a statement that reads as templated or does not reflect specific personal knowledge.
+
+The AI-generated draft is a starting point — not a finished document. The writer must review it, correct anything that does not match their actual experience, rewrite it in their own natural voice, and sign only what they know to be true.
+
+Once finalized, submit as **VA Form 21-10210** (Lay/Witness Statement) or attach directly to the claim file.
 
 ---
 
@@ -519,7 +523,9 @@ Describe how conditions affect intimacy and sexual health:
 - This statement is **lay evidence** — it carries real legal weight.
 - Describe **worst-day** symptoms, not how you feel on a good day.
 - Be specific. Vague statements are less useful than concrete examples.
-- This statement can be submitted with your claim, attached to a buddy statement, or provided to your VSO or attorney.
+- **⚠️ PERSONALIZATION REQUIRED:** Before generating an impact statement, ask the veteran specific questions about how each condition actually affects their daily life — specific tasks they can no longer do, specific incidents, specific changes since their condition worsened. The statement must reflect the veteran's unique lived experience in their own voice. Generic or templated language can be flagged and discounted by a VA rater.
+- The AI-generated draft is a starting point — not a finished document. The veteran must review it, correct anything that does not match their actual experience, and rewrite it in their own natural voice before submission.
+- This statement can be submitted with the claim, attached to a buddy statement, or provided to a VSO or attorney.
 - Review it with your doctor — they may be able to confirm or add clinical detail that elevates it to Tier 1 evidence.
 
 ---
