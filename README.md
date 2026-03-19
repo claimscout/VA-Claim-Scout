@@ -12,7 +12,7 @@ VA Claim Scout helps you:
 
 - Identify conditions that may qualify for VA disability benefits
 - Find secondary and presumptive claims you may have missed
-- Understand the strength and gaps in your evidence
+- Understand the strengths and gaps in your evidence
 - Prepare for C&P exams and doctor appointments
 - Draft messages to your VSO, attorney, or VA representative
 - Build buddy statements and impact statements that carry legal weight
@@ -36,22 +36,22 @@ It does not file claims, access your VA records, or provide legal advice. It hel
 
 ## Files
 
-- `VA_Claim_Scout_Pro_[version].md` — Pro version
-- `VA_Claim_Scout_Lite_[version].md` — Lite version
+- `VA_Claim_Scout_Pro.md` — Pro version
+- `VA_Claim_Scout_Lite.md` — Lite version
 
 ---
 
 ## How to Use It
 
 **Option 1 — Upload (easiest):**
-Most capable AI platforms accept file uploads. Upload the `.md` file directly and the AI will read it automatically. Then type:
+Most capable AI platforms accept file uploads. Upload the `.md` file directly, and the AI will read it automatically. Then type:
 
 > `Claim Scout, Help`
 
 and the welcome menu will appear.
 
 **Option 2 — Paste:**
-If your platform doesn't support file uploads, open the `.md` file in any text editor, copy the full contents, and paste it into your AI chat as your first message. Then type `Claim Scout, Help` to get started.
+If your platform doesn't support file uploads, open the `.md` file in any text editor, copy the full contents, and paste them into your AI chat as your first message. Then type `Claim Scout, Help` to get started.
 
 No account required. No setup. No cost.
 
@@ -59,7 +59,7 @@ No account required. No setup. No cost.
 
 ## Also Filing for SSDI?
 
-If you are also pursuing Social Security Disability Insurance benefits, **SSDI Claim Scout** is a separate companion tool built on the same framework.
+If you are also pursuing Social Security Disability Insurance benefits, **SSDI Claim Scout** (Coming Soon) is a separate companion tool built on the same framework.
 
 - **github.com/ClaimScout/SSDI-Claim-Scout**
 
