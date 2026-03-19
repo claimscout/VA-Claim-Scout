@@ -28,7 +28,7 @@ It does not file claims, access your VA records, or provide legal advice. It hel
 | **Pro** | Deep claim analysis, attorney prep, rater simulation | Claude, GPT-4o, Gemini Advanced |
 | **Lite** | Any AI platform, softened language, same core capability | Free AI platforms such as Copilot and Grok |
 
-**A note on free-tier AI platforms:** Tools like Microsoft Copilot and Grok offer powerful free services — and they make that possible by running lighter-weight models with reduced context capacity. That's not a flaw, it's how they afford to keep the lights on. VA Claim Scout Lite is built specifically to work within those limits without sacrificing the analysis that matters.
+**A note on free-tier AI platforms:** Tools like Microsoft Copilot and Grok offer powerful free services — and they make that possible by running lighter-weight models with reduced context capacity. That's not a flaw; it's how they afford to keep the lights on. VA Claim Scout Lite is built specifically to work within those limits and still delivers the analysis that matters.
 
 **If you have access to Claude, GPT-4o, or Gemini Advanced, start with Pro.**
 
