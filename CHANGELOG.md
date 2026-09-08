@@ -4,6 +4,11 @@
 
 ---
 
+### v0.3.2 (September 2026)
+- **README:** Explicitly recommend a companion living-document workflow after every VACS run (Correction Log, pre-save consistency check, Guess → confirmed conversion). States that VACS is deliberately single-pass and that persistence belongs in a human-owned document, not inside the AI session.
+- **README + both frameworks:** Added citation-confidence discipline. Models must flag low-confidence case, M21-1, Fast Letter, or regulatory citations rather than inventing them to satisfy format requirements. Users are told to treat every citation as unverified until checked against a primary source.
+- Framework signatures remain VACS-0.3.1 / VACS-0.3.1-LITE for cross-framework detection compatibility; version is tracked in CHANGELOG and filename.
+
 ### v0.3.1 (March 2026)
 - Updated Framework Signature to VACS-0.3.1
 - Tightened cross-framework detection string — scans for `FRAMEWORK SIGNATURE: SSCA-` followed by version number to prevent false triggers on uploaded records
