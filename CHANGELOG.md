@@ -5,8 +5,10 @@
 ---
 
 ### v0.3.2 (September 2026)
-- **README:** Explicitly recommend a companion living-document workflow after every VACS run (Correction Log, pre-save consistency check, Guess → confirmed conversion). States that VACS is deliberately single-pass and that persistence belongs in a human-owned document, not inside the AI session.
+- **README:** Explicitly recommend a companion living-document workflow after every VACS run (Correction Log, pre-save consistency check, Guess → confirmed conversion). States that VACS is deliberately single-pass and that persistence belongs in a human-owned document, not inside the AI session. Clarifies the living document works with or without VACS.
 - **README + both frameworks:** Added citation-confidence discipline. Models must flag low-confidence case, M21-1, Fast Letter, or regulatory citations rather than inventing them to satisfy format requirements. Users are told to treat every citation as unverified until checked against a primary source.
+- **Help / Welcome menu (Pro + Lite):** Added short note — “After you run a report: Treat the output as a one-shot analysis. Copy it into a document you own, keep a correction log, and verify every legal citation against a primary source before relying on it.”
+- **Pro framework:** Restored core operational sections (Red Team, SMC, Kinetic Chain, TDIU, Impact Statement including sexual-functioning domain, etc.) with citation confidence rule and help-menu note. Added optional command `Claim Scout, audit my living plan.` for structured audit of an uploaded living plan or prior report.
 - Framework signatures remain VACS-0.3.1 / VACS-0.3.1-LITE for cross-framework detection compatibility; version is tracked in CHANGELOG and filename.
 
 ### v0.3.1 (March 2026)
