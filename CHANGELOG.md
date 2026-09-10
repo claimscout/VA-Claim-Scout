@@ -1,61 +1,31 @@
 # VA Claim Scout — Changelog
 
-**Repository:** github.com/ClaimScout/VA-Claim-Scout
+**Repository:** github.com/claimscout/VA-Claim-Scout
 
 ---
 
 ### v0.3.2 (September 2026)
-- **README:** Explicitly recommend a companion living-document workflow after every VACS run (Correction Log, pre-save consistency check, Guess → confirmed conversion). States that VACS is deliberately single-pass and that persistence belongs in a human-owned document, not inside the AI session. Clarifies the living document works with or without VACS.
-- **README + both frameworks:** Added citation-confidence discipline. Models must flag low-confidence case, M21-1, Fast Letter, or regulatory citations rather than inventing them to satisfy format requirements. Users are told to treat every citation as unverified until checked against a primary source.
-- **Help / Welcome menu (Pro + Lite):** Added short note — “After you run a report: Treat the output as a one-shot analysis. Copy it into a document you own, keep a correction log, and verify every legal citation against a primary source before relying on it.”
-- **Pro framework:** Restored core operational sections (Red Team, SMC, Kinetic Chain, TDIU, Impact Statement including sexual-functioning domain, etc.) with citation confidence rule and help-menu note. Added optional command `Claim Scout, audit my living plan.` for structured audit of an uploaded living plan or prior report.
-- Framework signatures remain VACS-0.3.1 / VACS-0.3.1-LITE for cross-framework detection compatibility; version is tracked in CHANGELOG and filename.
+
+**Note:** This entry reflects what is present in the shipped files.
+
+#### Added / Strengthened
+- **Citation Confidence Rule** (Pro + README): Standalone mandatory rule. Model must output `⚠️ LOW CONFIDENCE CITATION` with plain-language description and verification pointer instead of inventing authorities. A confident citation is still not a verified citation.
+- **"Works With a Living Plan"** (Pro + README): Explicit single-pass design statement, three habits (Correction Log, pre-save consistency check, Guess → confirmed), independence note, and `Claim Scout, audit my living plan.` command.
+- **Cross-Denial-Collision Check** (Pro Red Team): New theories checked against language already used in prior denial letters; collisions must be surfaced.
+- **README:** Stronger "Every Citation Must Be Verified" section and explicit warning that Lite/free-tier models are more likely to invent citations.
+
+#### Known gap
+- **Lite** has not yet received the full port of the Citation Confidence Rule, living-plan section, audit command, and cross-denial check. This remains the next priority — Lite targets the models most prone to citation invention.
+
+Framework Signature on Pro is VACS-0.3.2.
 
 ### v0.3.1 (March 2026)
-- Updated Framework Signature to VACS-0.3.1
-- Tightened cross-framework detection string — scans for `FRAMEWORK SIGNATURE: SSCA-` followed by version number to prevent false triggers on uploaded records
-- Added attorney detection logic — scans records for named representatives, presents pick list, identifies VA-only vs. SSDI vs. dual-practice, routes outreach draft accordingly
-- Clarified VSO role — VSOs are VA-accredited only and cannot represent before SSA; outreach options updated to reflect this
-- Added Plain English Summary section — what is working for the case, what is working against it, written directly for the veteran
-- Added Your Next Move section — auto-generates outreach to attorney/representative, VSO coordination message, and VA Help Line summary at end of every full report
-- Added "Claim Scout, run everything." — one command produces complete report start to finish
-- Added "Claim Scout, walk me through it." — structured one-question-at-a-time guided intake covering service history, conditions, records, employment, medications, prior claims, and SSDI status; uncovers gaps progressively before running the full analysis; works with or without uploaded records
-- Replaced cross-framework hard stop with intelligent routing question — when both frameworks are detected, asks whether to focus on VA, SSDI, or get an explanation of how the two work together; routes accordingly without stopping the session
-- Added welcome menu — fires on "Claim Scout, help." with clean numbered options; disclaimer scoped to analysis responses only
-- Removed version numbers from inside the framework file — version tracked by filename only
+- Framework Signature VACS-0.3.1
+- Cross-framework detection and routing
+- Attorney detection and VSO role clarification
+- Plain English Summary and Your Next Move
+- "run everything" and "walk me through it" commands
+- Welcome menu
 
-### v0.1.1 (March 2026)
-- Added Framework Signature (VACS-0.1.1) for cross-framework detection
-- Added cross-framework detection logic — detects if SSDI Claim Scout is loaded simultaneously
-- Added platform-specific responses for Claude/ChatGPT, NotebookLM, and long conversation drift
-- Added graceful exception for SSCA report handoff vs. SSCA framework detection
-- Added "Works With SSDI Claim Scout" section
-- Added "Claim Scout, read my SSCA report." command
-
-### v0.3 (March 2026)
-- Added version tag and update reminder
-- Added "Share With a Veteran" section
-- Added "Why This Tool Is Free" note
-- Added TDIU three-pathway explainer (Schedular, Extraschedular, Functional)
-- Added TDIU reality check and evidence checklist
-- Added Section 13: Buddy Statement Generator
-- Added Section 14: Impact Statement Generator (work, social, family, sexual functioning)
-- Added "Claim Scout, check for updates" command
-- Added "Claim Scout, write a buddy statement" command
-- Added "Claim Scout, write an impact statement" command
-- Added Changelog
-
-### v0.2 (March 2026)
-- Added Legal Authority Stack (38 CFR, M21-1, CAVC/BVA, Fast Letters, Pending Cases)
-- Added Section 0 Command Library
-- Added license and credit block
-- Added GitHub credit requirement
-- Formatted help lines and crisis line as separate ruled blocks
-- Added "Claim Scout, help." as primary activation command
-
-### v0.1 (March 2026)
-- Initial pre-release merge of v2.0 and proposed v2.1
-- Added Kinetic Chain framework
-- Added Pyramiding Guardrails
-- Added Doctor Script (12B)
-- Added TDIU and SMC scans
+### Earlier versions
+See repository history for v0.3, v0.2, v0.1.1, v0.1.
